@@ -75,11 +75,10 @@ public class MemberDAO {
         return memberDTO;
     }
 
-    public boolean updateMember(MemberDTO memberDTO){
+    public void updateMember(MemberDTO memberDTO){
         SqlSession sqlSession = sqlSessionFactory.openSession();
         sqlSession.update("memberSQL.updateMember", memberDTO);
         sqlSession.commit();
         sqlSession.close();
-        return true;
     }
 }

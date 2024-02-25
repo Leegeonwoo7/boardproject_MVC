@@ -89,7 +89,7 @@
         <tr>
             <td colspan="2" align="center">
                 <input type="button" onclick="update_info()" value="수정완료">
-                <input type="reset" value="다시작성">
+                <input type="reset" value="다시작성" onclick="location.reload()">
             </td>
         </tr>
     </table>

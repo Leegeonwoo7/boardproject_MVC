@@ -3,15 +3,6 @@
 <html>
 <head>
     <title>회원가입</title>
-    <style>
-        table, th, td{
-            border: 1px solid black;
-            border-collapse: collapse;
-        }
-        div{
-            color: red;
-        }
-    </style>
     <link rel="stylesheet" href="${pageContext.request.contextPath}/style/style.css">
 </head>
 <body>
